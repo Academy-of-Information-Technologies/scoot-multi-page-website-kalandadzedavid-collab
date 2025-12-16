@@ -5,45 +5,149 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Scoot</title>
+  <link rel="stylesheet" href="./src/output.css">
+  <title>Scoot</title>
 </head>
 <body>
+  <header class=" flex items-center px-[32px] md:py-[21.5px] md:px-[165px]">
+    <nav class="group py-[22px] mr-[auto] md:hidden">
+      <img src="./assets/icons/hamburger.svg" alt="burg">
 
-  About
-  Location
-  Careers
+      <ul class="hidden group-hover:flex w-[256px] bg-zinc-700 px-[32px] pt-[64px] pb-[24px] absolute z-10 left-0 top-[64px]
+      // About
+text-slate-200
+text-lg
+font-bold
+font-['Space_Mono']
+leading-6 flex-col gap-[24px]">
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./locations.html">Location</a></li>
+        <li><a href="./careers.html">Careers</a></li>
 
-  Get Scootin
+        <a class="mt-[339px]" href="./locations.html"><button class="cursor-pointer py-[14px] w-full bg-amber-400 ">Get Scootin</button></a>
+      </ul>
+    </nav>
+    <a class="mx-auto md:mx-[unset]" href="./index.html"><img  src="./assets/logo.svg" alt="logo"></a>
+    <nav class="hidden md:block  ml-[60px]">
+      <ul class="// About
+text-gray-400
+text-base
+font-bold
+font-['Space_Mono']
+leading-6 flex gap-[32px]">
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./locations.html">Location</a></li>
+        <li><a href="./careers.html">Careers</a></li>
+      </ul>
+    </nav>
+    <a class="ml-auto" href="./locations.html"><button class="hidden md:block py-[14px] px-[39px] bg-amber-400  // Get Scootin
+text-white
+text-base
+font-bold
+font-['Space_Mono']
+leading-6">Get Scootin</button></a>
+  </header>
 
+  <section class="md:flex md:justify-between md:pr-[unset] md:bg-[url(/assets/images/careers-locations-hero-desktop.jpg)] md:pl-[165px] md:text-start text-center px-[32px] py-[60px] bg-[url(/assets/images/careers-location-hero-mobile.jpg)] bg-cover bg-no-repeat ">
+    <h2 class="// About
+text-white
+text-4xl
+font-bold
+font-['Space_Mono']
+leading-10">Locations</h2>
+<img class="hidden md:block" src="./assets/line/balls.svg" alt="">
+  </section>
 
+  <main class="flex flex-col items-center md:px-[165px] px-[32px] py-[72px]">
+    <img class="mb-[40px] md:hidden" src="./assets/images/world-map-mobile.png" alt="">
+    <img class="hidden md:block mb-[120px]" src="./assets/images/map-desk.svg" alt="">
 
-  Locations
+    <div class="md:hidden mb-[72px] flex flex-col items-center gap-[16px]">
+      <button class="py-[22px] w-[311px] bg-amber-400/20 // New York
+text-slate-600
+text-2xl
+font-bold
+font-['Space_Mono']
+leading-7">New York</button>
 
+  <button class="py-[22px] w-[311px] bg-amber-400/20 // New York
+text-slate-600
+text-2xl
+font-bold
+font-['Space_Mono']
+leading-7">London</button>
 
+<button class="py-[22px] w-[311px] bg-amber-400/20 // New York
+text-slate-600
+text-2xl
+font-bold
+font-['Space_Mono']
+leading-7">Jakarta</button>
 
-  New York
-  London
-  Yokohama
-  Jakarta
+<button class="py-[22px] w-[311px] bg-amber-400/20 // New York
+text-slate-600
+text-2xl
+font-bold
+font-['Space_Mono']
+leading-7">Yokohama</button>
+    </div>
 
-  Your city not listed?
+    <div class="md:justify-between md:flex-row text-center flex flex-col items-center gap-[32px]">
+      <h3 class="// Your City Not Listed?
+text-slate-600
+text-3xl
+font-bold
+font-['Space_Mono']
+leading-8 md:w-[351px]">Your City Not Listed?</h3>
 
-  If you’d like to see Scoot in your hometown, be sure to let us know. We track 
-  requests and plan launches based on demand. Feel free to message us by clicking 
-  the link or messaging us on social.
+<p class="// If you’d like to see Scoot in your hometown, be sure to let us know. We track requests and plan launches based on demand. Feel free to message us by clicking the link or messaging us on social.
+text-gray-400
+text-base
+font-normal
+font-['Lexend_Deca']
+leading-6 md:w-[445px]">If you’d like to see Scoot in your hometown, be sure to let us know. We track requests and plan launches based on demand. Feel free to message us by clicking the link or messaging us on social.</p>
 
-  Message Us
+<button class="py-[14px] w-[180px] bg-amber-400 // Message Us
+text-white
+text-base
+font-bold
+font-['Space_Mono']
+leading-6">Message Us</button>
+    </div>
+  </main>
 
-  
-
-  Sign up and Scoot off today
-
-
-
-  About
-  Location
-  Careers
-
+    <footer>
+    <div class="md:bg-[url(/assets/background/desk-footer.svg)] md:px-[165px] md:flex-row md:justify-between px-[32px] py-[88px] flex flex-col items-center text-center gap-[40px] bg-[url(/assets/background/mobile-footer.svg)] bg-cover bg-no-repeat">
+      <h5 class="// Sign up and Scoot off today
+text-white
+text-3xl
+font-bold
+font-['Space_Mono']
+leading-8 md:text-5xl md:max-w-110 md:leading-[48px]">Sign up and Scoot off today</h5>
+      <div class="flex gap-[12px]">
+        <img src="./assets/icons/app-store.svg" alt="">
+        <img src="./assets/icons/google-play.svg" alt="">
+      </div>
+    </div>
+    <div class="md:px-[165px] md:flex-row text-center pt-[64px] pb-[88px] bg-[#333A44] flex flex-col items-center">
+      <a class="md:mb-[unset] mb-[41px]" href="./index.html"><img  src="./assets/logo-alt.svg" alt=""></a>
+      <ul class="md:ml-[60px] md:flex-row md:mb-[unset] flex flex-col gap-[16px] mb-[85px] // About
+text-gray-400
+text-base
+font-bold
+font-['Space_Mono']
+leading-6">
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./locations.html">Location</a></li>
+        <li><a href="./careers.html">Careers</a></li>
+      </ul>
+      <div class="md:ml-auto flex gap-[20px]">
+        <img src="./assets/icons/facebook.svg" alt="">
+        <img src="./assets/icons/twitter.svg" alt="">
+        <img src="./assets/icons/instagram.svg" alt="">
+      </div>
+    </div>
+  </footer>
+ 
 </body>
 </html>
